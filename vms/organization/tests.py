@@ -1,7 +1,7 @@
 from django.test import TestCase
 from organization.models import Organization
 from organization.services import *
-
+#testChanges
 class OrganizationMethodTests(TestCase):
 
     def test_get_organization_by_id(self):
